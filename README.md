@@ -13,9 +13,11 @@ This project is created using the [Unity](https://unity.com/de) 3D Engine.
 
 ## Build the project
 1. Open the build settings in the unity project
-![Screenshot (97)](https://github.com/chantalburkhard/WIAP_Server_Start_Application/assets/73609488/deaa6f43-1954-440a-9b5d-3a85713ca258)
-2. Click on "Player Settings"
-![Screenshot (98)](https://github.com/chantalburkhard/WIAP_Server_Start_Application/assets/73609488/686bcb33-b22d-46b9-9daf-0a68e471e8d8)
-3. Go back to build settings and click "Build"
+![Screenshot (97)](https://github.com/chantalburkhard/WIAP_Server_Start_Application/assets/73609488/23963af3-7cf0-4bfd-bc4c-5039a1195616)
+
+3. Click on "Player Settings"
+![Screenshot (98)](https://github.com/chantalburkhard/WIAP_Server_Start_Application/assets/73609488/d361a45b-ffdb-4ca6-82d0-4dd5d39620bf)
+
+5. Go back to build settings and click "Build"
 
 note: currently a "development build" with error console for debugging
