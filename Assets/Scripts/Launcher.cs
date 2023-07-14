@@ -7,9 +7,11 @@ namespace Com.WIAP.Checkers
     public class Launcher : MonoBehaviourPunCallbacks
     {
         private bool isConnecting = false;
+        private TextMesh debugText;
 
         private void Start()
         {
+            debugText = GetComponent<TextMesh>();
             ConnectToPhoton();
         }
 
@@ -56,7 +58,13 @@ namespace Com.WIAP.Checkers
 
         public override void OnCreateRoomFailed(short returnCode, string message)
         {
+            UpdateDebugText("Failed to create room: " + message);
             Debug.LogError("Failed to create room: " + message);
+        }
+
+        private void UpdateDebugText(string message)
+        {
+            debugText.text = message;
         }
     }
 }
