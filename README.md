@@ -21,3 +21,14 @@ This project is created using the [Unity](https://unity.com/de) 3D Engine.
 5. Go back to build settings and click "Build"
 
 note: currently a "development build" with error console for debugging
+
+## Run the project
+1. Open the directory where the build was saved
+2. Start the .exe
+
+![Screenshot (125)](https://github.com/chantalburkhard/WIAP_Server_Start_Application/assets/73609488/b98bbce6-f981-44f2-af81-469997f72114)
+
+
+3. Click on "Start" to create the photon room
+
+![Screenshot (126)](https://github.com/chantalburkhard/WIAP_Server_Start_Application/assets/73609488/6964943c-94dc-4f8e-a071-71876b6b3d89)
