@@ -27,11 +27,18 @@ namespace Com.WIAP.Checkers
 
         void HandleLog(string logString, string stackTrace, LogType type)
         {
-            myLogQueue.Enqueue("[" + type + "] : " + logString);
-            if (type == LogType.Exception)
-                myLogQueue.Enqueue(stackTrace);
-            while (myLogQueue.Count > qsize)
-                myLogQueue.Dequeue();
+            string formattedLog = "[" + type + "] : " + logString;
+
+            if (!myLogQueue.Contains(formattedLog))
+            {
+                myLogQueue.Enqueue(formattedLog);
+
+                if (type == LogType.Exception)
+                    myLogQueue.Enqueue(stackTrace);
+
+                while (myLogQueue.Count > qsize)
+                    myLogQueue.Dequeue();
+            }
         }
 
         void OnGUI()
