@@ -1,5 +1,7 @@
-# Server Start Application - one part of a university project
-The Application starts the [Photon PUN 2](https://www.photonengine.com/pun) network and creates a room so other devices can join. 
+# Server Start Application - part of a university project
+The Application starts the [Photon PUN 2](https://www.photonengine.com/pun) network and creates a room so other devices using a different unity application can join (you should not do something like that because it makes working with photon quite difficult and near impossible to synchronize game objects across the network without deep diving into the complex world of networking). 
+
+Hint: The application is not needed anymore.
 
 # Unity
 This project is created using the [Unity](https://unity.com/de) 3D Engine.
@@ -19,8 +21,6 @@ This project is created using the [Unity](https://unity.com/de) 3D Engine.
 ![Screenshot (98)](https://github.com/chantalburkhard/WIAP_Server_Start_Application/assets/73609488/d361a45b-ffdb-4ca6-82d0-4dd5d39620bf)
 
 5. Go back to build settings and click "Build"
-
-note: currently a "development build" with error console for debugging
 
 ## Run the project
 1. Open the directory where the build was saved
